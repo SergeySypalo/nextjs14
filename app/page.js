@@ -9,7 +9,7 @@ export default function Home() {
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
-          <Link href={"/best-comedy-movies"}>Best comedy movies</Link>
+          <Link href={"/best-comedy-movies"}>Best comedy movies on Node 20</Link>
         </p>
         <div>
           <a
