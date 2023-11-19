@@ -1,7 +1,5 @@
 export async function generateStaticParams() {	
-	const rrr = ["1","2"].map(i => ({ page: i }))
-	console.log(rrr)
-	return rrr
+	return ["1","2"].map(i => ({ page: i }))
 }
 
 export default function Posts({ params }) {	
