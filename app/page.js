@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from './page.module.css'
 
 export default function Home() {
+  console.log([1,2].map(i => ({ page: i })))
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -10,6 +11,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
           <Link href={"/best-comedy-movies"}>Best comedy movies on Node 20</Link>
+          <Link href={"/2"}>Page 2</Link>
         </p>
         <div>
           <a
