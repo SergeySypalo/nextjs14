@@ -1,5 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {   
+module.exports = {   
    async rewrites() {
       const rewrites = ["comedy", "drama"].map(genre => ({
          source: `/best-${genre}-movies`,
@@ -8,5 +7,3 @@ const nextConfig = {
       return rewrites
    }
 }
-
-module.exports = nextConfig
